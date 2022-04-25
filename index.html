@@ -6,10 +6,10 @@
 <meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.0.0">
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#222">
 
 <link rel="stylesheet" href="/css/main.css">
 
@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" integrity="sha256-DfWjNxDkM94fVBWx1H5BMMp0Zq7luBlV8QRcSES7s+0=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.11.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.11.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
     <meta property="og:type" content="website">
 <meta property="og:title" content="青云">
@@ -110,6 +110,8 @@
 
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="cyan cloud"
+      src="/uploads/avatar.jpg">
   <p class="site-author-name" itemprop="name">cyan cloud</p>
   <div class="site-description" itemprop="description"></div>
 </div>
@@ -127,6 +129,14 @@
       </div>
   </nav>
 </div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/SCU-PQY" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;SCU-PQY" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:pqy7800@126.com" title="E-Mail → mailto:pqy7800@126.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
 
 
 
@@ -163,7 +173,7 @@
     <link itemprop="mainEntityOfPage" href="http://example.com/2022/04/25/Maven%E5%85%A5%E9%97%A8%E4%B8%89%E9%97%AE/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
       <meta itemprop="name" content="cyan cloud">
     </span>
 
@@ -190,7 +200,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2022-04-25 14:20:00 / 修改时间：14:30:11" itemprop="dateCreated datePublished" datetime="2022-04-25T14:20:00+08:00">2022-04-25</time>
+      <time title="创建时间：2022-04-25 14:20:00 / 修改时间：16:53:56" itemprop="dateCreated datePublished" datetime="2022-04-25T14:20:00+08:00">2022-04-25</time>
     </span>
 
   
@@ -205,81 +215,14 @@
     <div class="post-body" itemprop="articleBody">
           <h2 id="Maven是什么"><a href="#Maven是什么" class="headerlink" title="Maven是什么"></a>Maven是什么</h2><p>Maven的意思是”专家”、”内行”。是由Apache公司开发维护的项目构建、管理工具。最初的目标是简化Jakarta Turbine项目里的工程的构建流程，这些工程每个都有自己的Ant构建文件，这些Ant构建文件各不相同。Apache希望有一个标准的构建项目流程、一个明确的项目由什么文件组成的定义、一个易于发布工程的渠道以及一个在各个工程中共享JAR包的方法。</p>
 <p>因此，一个可以用于构建、管理任何Java项目的工具诞生了，这就是Maven。</p>
-<h2 id="Maven能够做什么"><a href="#Maven能够做什么" class="headerlink" title="Maven能够做什么"></a>Maven能够做什么</h2><p>Maven的主要目标是帮助开发者短时间内理解开发工作的全貌，为了达成这个目标，Maven实现了：</p>
-<ul>
-<li>使项目构建流程更加简单</li>
-<li>提供一个标准的构建系统</li>
-<li>提供有质量的工程文档</li>
-<li>为最佳实践开发提供指导方针</li>
-</ul>
-<h3 id="使项目构建流程更加简单"><a href="#使项目构建流程更加简单" class="headerlink" title="使项目构建流程更加简单"></a>使项目构建流程更加简单</h3><p>尽管使用Maven不能避免理解底层机制的需求，Maven还是帮开发者屏蔽了不少细节</p>
-<h3 id="提供一个标准的构建系统"><a href="#提供一个标准的构建系统" class="headerlink" title="提供一个标准的构建系统"></a>提供一个标准的构建系统</h3><p>Maven使用它的project object module（POM）和一系列的插件构建一个工程，只要你熟悉了一个Maven工程的构建流程，你就知道其他所有Maven工程是如何构建的。</p>
-<h3 id="提供有质量的工程文档"><a href="#提供有质量的工程文档" class="headerlink" title="提供有质量的工程文档"></a>提供有质量的工程文档</h3><p>Maven提供有用的工程文档，这个文档的一部分内容来自于POM文件，另一部分来自于工程源码，例如Maven可以提供：</p>
-<ul>
-<li>从源码管理工具中获取的修改日志</li>
-<li>交叉引用的来源</li>
-<li>工程管理的邮箱列表</li>
-<li>工程的依赖</li>
-<li>包括覆盖率的单元测试报告</li>
-</ul>
-<p>第三方代码分析工具也可以提供Maven插件，将他们的报告加入标准的Maven文档中</p>
-<h2 id="怎么用Maven"><a href="#怎么用Maven" class="headerlink" title="怎么用Maven"></a>怎么用Maven</h2><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p><a target="_blank" rel="noopener" href="http://maven.apache.org/install.html">http://maven.apache.org/install.html</a></p>
-<h3 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h3><p><a target="_blank" rel="noopener" href="http://maven.apache.org/guides/mini/guide-configuring-maven.html">http://maven.apache.org/guides/mini/guide-configuring-maven.html</a></p>
-<h3 id="使用Maven创建一个工程"><a href="#使用Maven创建一个工程" class="headerlink" title="使用Maven创建一个工程"></a>使用Maven创建一个工程</h3><p>在命令行，工程所在目录下，输入：</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=<span class="literal">false</span></span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>如果刚刚安装Maven，第一次运行需要花费一段时间。这是由于Maven正在下载一些最常用的artifacts（插件、jar包以及其他文件）到本地。你可能需要多次执行上述命令直到成功，因为在下载完成前远程服务器可能会因为超时断开连接，别担心，有办法解决这个问题。</p>
-</blockquote>
-<p>执行完成后，你会注意到Maven 目标 <code> archetype:generate</code>创建了一个于DartifactId同名的目录</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> my-app</span><br></pre></td></tr></table></figure>
-
-<p>在这个目录里，你会发现以下Maven标准工程结构</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">my-app</span><br><span class="line">|-- pom.xml</span><br><span class="line">`-- src</span><br><span class="line">    |-- main</span><br><span class="line">    |   `-- java</span><br><span class="line">    |       `-- com</span><br><span class="line">    |           `-- mycompany</span><br><span class="line">    |               `-- app</span><br><span class="line">    |                   `-- App.java</span><br><span class="line">    `-- test</span><br><span class="line">        `-- java</span><br><span class="line">            `-- com</span><br><span class="line">                `-- mycompany</span><br><span class="line">                    `-- app</span><br><span class="line">                        `-- AppTest.java</span><br></pre></td></tr></table></figure>
-
-<p><code> src/main/java</code>目录里边存放工程的源代码，<code> src/test/java</code>目录里边存放测试代码，<code> pom.xml</code>文件是这个工程的project object module（POM）</p>
-<h4 id="这个命令做了什么？"><a href="#这个命令做了什么？" class="headerlink" title="这个命令做了什么？"></a>这个命令做了什么？</h4><p>你执行了Maven 目标 <code> archetype:generate</code>，并且给这个目标传递了许多参数，目标的前缀<code> archetype</code>是提供这个目标的Maven插件。如果你熟悉Ant，你会发现这个任务很相似。目标 <code> archetype:generate</code>创建了一个以 <a target="_blank" rel="noopener" href="http://maven.apache.org/archetypes/maven-archetype-quickstart/">maven-archetype-quickstart</a>为原型的的简单工程。现在可以简单的说，Maven插件是包含了一系列目标的集合。</p>
-<h4 id="POM文件"><a href="#POM文件" class="headerlink" title="POM文件"></a>POM文件</h4><p><code> pom.xml</code>文件是一个Maven工程配置的核心，是一个包含了构建项目所需的主要信息的单独的配置文件。POM文件会十分巨大，复杂度也会令人生畏。不过目前使用它并不需要理解它所有的指令。这个项目的POM文件如下</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">project</span> <span class="attr">xmlns</span>=<span class="string">&quot;http://maven.apache.org/POM/4.0.0&quot;</span> <span class="attr">xmlns:xsi</span>=<span class="string">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span></span></span><br><span class="line"><span class="tag">  <span class="attr">xsi:schemaLocation</span>=<span class="string">&quot;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">modelVersion</span>&gt;</span>4.0.0<span class="tag">&lt;/<span class="name">modelVersion</span>&gt;</span></span><br><span class="line"> </span><br><span class="line">  <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.mycompany.app<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>my-app<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">version</span>&gt;</span>1.0-SNAPSHOT<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"> </span><br><span class="line">  <span class="tag">&lt;<span class="name">properties</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">maven.compiler.source</span>&gt;</span>1.7<span class="tag">&lt;/<span class="name">maven.compiler.source</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">maven.compiler.target</span>&gt;</span>1.7<span class="tag">&lt;/<span class="name">maven.compiler.target</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">properties</span>&gt;</span></span><br><span class="line"> </span><br><span class="line">  <span class="tag">&lt;<span class="name">dependencies</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>junit<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>junit<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">version</span>&gt;</span>4.12<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">scope</span>&gt;</span>test<span class="tag">&lt;/<span class="name">scope</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">dependencies</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">project</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>POM文件的详解我们以后再说。</p>
-<h3 id="构建这个工程"><a href="#构建这个工程" class="headerlink" title="构建这个工程"></a>构建这个工程</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mvn package</span><br></pre></td></tr></table></figure>
-
-<p>这个命令将会打印出各种各样的操作日志，最后会长这样</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"> ...</span><br><span class="line">[INFO] ------------------------------------------------------------------------</span><br><span class="line">[INFO] BUILD SUCCESS</span><br><span class="line">[INFO] ------------------------------------------------------------------------</span><br><span class="line">[INFO] Total time:  2.953 s</span><br><span class="line">[INFO] Finished at: 2019-11-24T13:05:10+01:00</span><br><span class="line">[INFO] ------------------------------------------------------------------------</span><br></pre></td></tr></table></figure>
-
-<p>不像第一个命令那么长，第二个命令十分简洁。第二个命令是执行一个阶段，一个阶段是构建流程中的一步，构建流程是一系列阶段的顺序序列。当要执行某个阶段时，Maven循序执行每个阶段，直到执行完提供的阶段为止。例如，如果你执行编译阶段，实际上被执行的阶段有：</p>
-<ol>
-<li>验证</li>
-<li>生成源码</li>
-<li>处理源码</li>
-<li>生成资源</li>
-<li>处理资源</li>
-<li>编译</li>
-</ol>
-<p>你可以用一下指令测试刚编译并打包好的JAR包：</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java -<span class="built_in">cp</span> target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App</span><br></pre></td></tr></table></figure>
-
-<p>执行成功则会输出：</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hello World!</span><br></pre></td></tr></table></figure>
-
-<h3 id="执行Maven工具"><a href="#执行Maven工具" class="headerlink" title="执行Maven工具"></a>执行Maven工具</h3><h4 id="Maven-阶段"><a href="#Maven-阶段" class="headerlink" title="Maven 阶段"></a>Maven 阶段</h4><p>这里有一些通用的默认的构建流程阶段。</p>
-<ul>
-<li>验证：验证工程是正确的，所有必要信息都是可访问的。</li>
-<li>编译：编译工程源码。</li>
-<li>测试：使用合适的单元测试框架测试编译后的源码。这些测试代码不能引用将要被打包或者发布的代码。</li>
-<li>打包：将源码打包成指定发布格式，如JAR包。</li>
-<li>集成测试：如果需要，处理包并将其部署到可以运行集成测试的环境中。</li>
-<li>核实：执行不同的测试来验证包是可用并满足质量需求的。</li>
-<li>安装：安装包到本地仓库，给其他依赖了此包的本地工程使用。</li>
-<li>发布：在集成或发布环境中完成，复制最终包到远程仓库并共享给其他开发者和其他工程。</li>
-</ul>
-<p>除了上述的默认流程外，还有两个我们值得关注的Maven流程，他们是：</p>
-<ul>
-<li>清理：清理上一次构建流程创建的artifacts。</li>
-<li>选址：给工程生成选址文档。</li>
-</ul>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2022/04/25/Maven%E5%85%A5%E9%97%A8%E4%B8%89%E9%97%AE/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -309,7 +252,7 @@
   &copy; 
   <span itemprop="copyrightYear">2022</span>
   <span class="with-love">
-    <i class="fa fa-heart"></i>
+    <i class="fa fa-user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">cyan cloud</span>
 </div>
